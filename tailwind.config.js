@@ -11,7 +11,11 @@ module.exports = {
           100: '#E2E2D5',
           200: '#888883',
         }
-      }
+      },
+      fontFamily: {
+        // You can call it whatever you like
+        nuni: ['Nunito']
+      } 
     },
   },
   plugins: [],
