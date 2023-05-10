@@ -877,6 +877,10 @@ video {
     grid-column: span 2 / span 2;
   }
 
+  .md\:col-span-5{
+    grid-column: span 5 / span 5;
+  }
+
   .md\:block{
     display: block;
   }
@@ -891,6 +895,14 @@ video {
 
   .md\:grid-cols-3{
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .md\:grid-cols-5{
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+
+  .md\:grid-cols-6{
+    grid-template-columns: repeat(6, minmax(0, 1fr));
   }
 
   .md\:justify-end{
